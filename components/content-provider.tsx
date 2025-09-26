@@ -6,18 +6,21 @@ import { createContext, useContext } from "react"
 import {
   portfolio as defaultPortfolio,
   projects as defaultProjects,
+  experience as defaultExperience,
   education as defaultEducation,
   skillsByCategory as defaultSkillsByCategory,
 } from "@/lib/portfolio-data"
 
 type Portfolio = typeof defaultPortfolio
 type Projects = typeof defaultProjects
+type Experience = typeof defaultExperience
 type Education = typeof defaultEducation
 type SkillsByCategory = typeof defaultSkillsByCategory
 
 export type Content = {
   portfolio: Portfolio
   projects: Projects
+  experience: Experience
   education: Education
   skillsByCategory: SkillsByCategory
 }
@@ -25,6 +28,7 @@ export type Content = {
 const DEFAULT_CONTENT: Content = {
   portfolio: defaultPortfolio,
   projects: defaultProjects,
+  experience: defaultExperience,
   education: defaultEducation,
   skillsByCategory: defaultSkillsByCategory,
 }

@@ -17,8 +17,7 @@ export const projects = [
     description:
       "Built an end-to-end CNN training pipeline with explainability methods (Grad-CAM, Grad-CAM++). Developed a Streamlit app to run inference, visualize heatmaps, and manage experiments with Lightning and TensorBoard.",
     tags: ["PyTorch", "CNN", "Explainability", "Streamlit"],
-    video: "/explainable-cnn.mp4",
-    image: "/projects/explainable-cnn.png",
+    image: "/training-pipeline-visual.png",
     href: "https://huggingface.co/spaces/Stefano01/ExplainableCNN",
     repo: "https://github.com/Stefanoo01/ExplainableCNN",
   },
@@ -29,8 +28,7 @@ export const projects = [
     description:
       "Developed a multi-agent delivery system using BDI architecture with adaptive planning (PDDL + BFS fallback). Implemented coordination and competitive protocols for efficient delivery strategies.",
     tags: ["Multi-Agent", "Node.js", "PDDL", "BDI"],
-    video: "/smart-delivery-agents.mp4",
-    image: "/projects/smart-delivery-agents.png",
+    image: "/ai-agent-orchestration.png",
     href: "#",
     repo: "https://github.com/Stefanoo01/Smart_Delivery_Agent",
   },
@@ -41,8 +39,7 @@ export const projects = [
     description:
       "Implemented LSTM-based language models with advanced regularization. Built BiLSTM and BERT models for joint intent classification and slot filling, evaluating trade-offs in performance and generalization.",
     tags: ["NLP", "PyTorch", "LSTMs", "BERT"],
-    video: "/lm-nlu.mp4",
-    image: "/projects/lm-nlu.png",
+    image: "/voice-assistant-interface.png",
     href: "#",
     repo: "https://github.com/Stefanoo01/lm-nlu-exp",
   },
@@ -53,8 +50,7 @@ export const projects = [
     description:
       "Created dual pipelines for emotion recognition: a landmark-based approach with MediaPipe Face Mesh and a CNN-based solution with DeepFace. Supported both real-time and recorded-video analysis with OpenCV.",
     tags: ["Computer Vision", "OpenCV", "MediaPipe", "DeepFace"],
-    video: "/facial-emotion-recognition.mp4",
-    image: "/projects/facial-emotion-recognition.png",
+    image: "/vision-analytics-ui.png",
     href: "#",
     repo: "https://github.com/Stefanoo01/Facial-Emotion-Recognition",
   },
@@ -110,30 +106,6 @@ export const education = [
     period: "Sep. 2015 - Jun. 2020",
     items: [],
   },
-]
-
-export const skills = [
-  // Core from showcased projects
-  "PyTorch",
-  "CNNs",
-  "Explainability (Grad-CAM/++)",
-  "Computer Vision",
-  "OpenCV",
-  "MediaPipe",
-  "DeepFace",
-  "NLP",
-  "LSTMs",
-  "BERT",
-  "Streamlit",
-  "PyTorch Lightning",
-  "TensorBoard",
-  "Multi-Agent Systems",
-  "PDDL",
-  "BDI",
-  // App & tooling
-  "Python",
-  "Node.js",
-  "Next.js",
 ]
 
 export const skillsByCategory = [
