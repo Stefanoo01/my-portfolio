@@ -7,9 +7,8 @@ import { ThemeProvider } from "@/components/theme-provider"
 import { ContentProvider } from "@/components/content-provider"
 
 export const metadata: Metadata = {
-  title: "AI Engineer — Portfolio",
-  description: "Personal portfolio showcasing AI engineering projects and expertise",
-  generator: "v0.dev",
+  title: "Stefano Racca — Portfolio",
+  description: "Personal portfolio",
 }
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
