@@ -15,7 +15,7 @@ export function Experience() {
         </h2>
         <ol className="relative border-l pl-6">
           {experience.map((item, idx) => (
-            <Reveal as="li" key={item.company + idx} delay={idx * 90} direction="up" className="mb-10">
+            <Reveal as="li" key={item.company + idx} delay={idx * 90} direction="up" className="relative mb-10">
               <div className="absolute left-0 -translate-x-1/2 mt-1 h-3 w-3 rounded-full bg-foreground" aria-hidden="true" />
               <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-1">
                 <div className="font-medium">

@@ -40,33 +40,17 @@ export function Projects() {
             <Reveal key={p.slug} delay={idx * 90} direction="up">
               <Card className="overflow-hidden transition-transform duration-300 ease-out hover:-translate-y-0.5 hover:shadow-md">
                 <div className="relative aspect-[16/10]">
-                  {p.video ? (
-                    <video
-                      src={p.video}
-                      className="absolute inset-0 h-full w-full object-cover"
-                      autoPlay
-                      muted
-                      loop
-                      playsInline
-                      preload="metadata"
-                      controlsList="nodownload nofullscreen noplaybackrate"
-                      disablePictureInPicture
-                      onContextMenu={(e) => e.preventDefault()}
-                      aria-label={`${p.title} video preview`}
-                    />
-                  ) : (
-                    <Image
-                      src={
-                        p.image ||
-                        "/placeholder.svg?height=600&width=1000&query=minimal product ui screenshot" ||
-                        "/placeholder.svg"
-                      }
-                      alt={p.title}
-                      fill
-                      className="object-cover transition-transform duration-500 ease-out hover:scale-[1.03]"
-                      sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
-                    />
-                  )}
+                  <Image
+                    src={
+                      p.image ||
+                      "/placeholder.svg?height=600&width=1000&query=minimal product ui screenshot" ||
+                      "/placeholder.svg"
+                    }
+                    alt={p.title}
+                    fill
+                    className="object-cover transition-transform duration-500 ease-out hover:scale-[1.03]"
+                    sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+                  />
                 </div>
                 <CardHeader>
                   <CardTitle className="text-lg">{p.title}</CardTitle>
