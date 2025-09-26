@@ -56,30 +56,6 @@ export const projects = [
   },
 ]
 
-export const experience = [
-  {
-    company: "Acme AI",
-    role: "Senior AI Engineer",
-    period: "2023 — Present",
-    summary:
-      "Led LLM platform: retrieval pipelines, evals, and production rollouts serving millions of requests monthly.",
-  },
-  {
-    company: "DataWorks",
-    role: "Machine Learning Engineer",
-    period: "2021 — 2023",
-    summary:
-      "Shipped ranking and summarization systems with strong offline/online eval alignment and observability.",
-  },
-  {
-    company: "Freelance",
-    role: "AI Engineer",
-    period: "2018 — 2021",
-    summary:
-      "Delivered custom AI solutions: RAG apps, model fine-tunes, and analytics with dashboards and alerts.",
-  },
-]
-
 export const education = [
   {
     degree: "Master's Degree in Artificial Intelligence Systems",
@@ -105,52 +81,5 @@ export const education = [
     location: "Racconigi (Cuneo), Italy",
     period: "Sep. 2015 - Jun. 2020",
     items: [],
-  },
-]
-
-export const skillsByCategory = [
-  {
-    name: "Deep Learning & Vision",
-    subtitle: "Modeling, training, explainability",
-    items: [
-      { label: "PyTorch", level: 85, note: "Training, debugging, optimization" },
-      { label: "CNNs", level: 83, note: "Architectures, regularization" },
-      { label: "Explainability (Grad‑CAM/++)", level: 80, note: "Visual insights, comparisons" },
-      { label: "Computer Vision (OpenCV/MediaPipe/DeepFace)", level: 78 },
-    ],
-  },
-  {
-    name: "NLP",
-    subtitle: "Sequence models and transformers",
-    items: [
-      { label: "LSTMs", level: 78, note: "Language modeling, regularization" },
-      { label: "BERT", level: 76, note: "Intent + slot filling" },
-    ],
-  },
-  {
-    name: "ML Tooling",
-    subtitle: "Apps, logging, and experiment tracking",
-    items: [
-      { label: "Streamlit", level: 82, note: "Interactive demos & UX" },
-      { label: "PyTorch Lightning", level: 78, note: "Training loops, callbacks" },
-      { label: "TensorBoard", level: 76, note: "Metrics, visualization" },
-    ],
-  },
-  {
-    name: "Multi‑Agent Systems",
-    subtitle: "Planning and agent architectures",
-    items: [
-      { label: "PDDL", level: 74, note: "Planning models" },
-      { label: "BDI", level: 72, note: "Agent design & protocols" },
-    ],
-  },
-  {
-    name: "Systems & Apps",
-    subtitle: "APIs, UI integration, and reliability",
-    items: [
-      { label: "Python", level: 84, note: "Data tooling, scripts, notebooks" },
-      { label: "Node.js", level: 72, note: "Services, integrations" },
-      { label: "Next.js", level: 75, note: "Sites & components" },
-    ],
   },
 ]
