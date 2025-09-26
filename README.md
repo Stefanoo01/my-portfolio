@@ -2,6 +2,10 @@
 
 A fast, accessible Next.js portfolio that highlights AI and machine learning projects, experience, and contact details. The codebase has been stripped back to the essentials: only the components and dependencies required to render the published sections remain, making it easy to understand, extend, and deploy.
 
+## Live site
+
+- Visit the deployed website: [stefanoracca.vercel.app](stefanoracca.vercel.app)
+
 ## Features
 
 - **Modern UI** powered by Next.js 14, Tailwind CSS 4, and a curated set of Radix primitives.

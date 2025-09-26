@@ -17,7 +17,7 @@ export const projects = [
     description:
       "Built an end-to-end CNN training pipeline with explainability methods (Grad-CAM, Grad-CAM++). Developed a Streamlit app to run inference, visualize heatmaps, and manage experiments with Lightning and TensorBoard.",
     tags: ["PyTorch", "CNN", "Explainability", "Streamlit"],
-    image: "/training-pipeline-visual.png",
+    video: "/explainable-cnn.mp4",
     href: "https://huggingface.co/spaces/Stefano01/ExplainableCNN",
     repo: "https://github.com/Stefanoo01/ExplainableCNN",
   },
@@ -28,7 +28,7 @@ export const projects = [
     description:
       "Developed a multi-agent delivery system using BDI architecture with adaptive planning (PDDL + BFS fallback). Implemented coordination and competitive protocols for efficient delivery strategies.",
     tags: ["Multi-Agent", "Node.js", "PDDL", "BDI"],
-    image: "/ai-agent-orchestration.png",
+    video: "/smart-delivery-agents.mp4",
     href: "#",
     repo: "https://github.com/Stefanoo01/Smart_Delivery_Agent",
   },
@@ -39,7 +39,7 @@ export const projects = [
     description:
       "Implemented LSTM-based language models with advanced regularization. Built BiLSTM and BERT models for joint intent classification and slot filling, evaluating trade-offs in performance and generalization.",
     tags: ["NLP", "PyTorch", "LSTMs", "BERT"],
-    image: "/voice-assistant-interface.png",
+    video: "/lm-nlu.mp4",
     href: "#",
     repo: "https://github.com/Stefanoo01/lm-nlu-exp",
   },
@@ -50,7 +50,7 @@ export const projects = [
     description:
       "Created dual pipelines for emotion recognition: a landmark-based approach with MediaPipe Face Mesh and a CNN-based solution with DeepFace. Supported both real-time and recorded-video analysis with OpenCV.",
     tags: ["Computer Vision", "OpenCV", "MediaPipe", "DeepFace"],
-    image: "/vision-analytics-ui.png",
+    video: "/facial-emotion-recognition.mp4",
     href: "#",
     repo: "https://github.com/Stefanoo01/Facial-Emotion-Recognition",
   },

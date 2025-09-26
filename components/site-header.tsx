@@ -50,13 +50,13 @@ export function SiteHeader() {
               </Button>
             </SheetTrigger>
             <SheetContent side="right" className="w-72">
-              <nav className="mt-8 grid gap-4">
+              <nav className="mt-6 flex flex-col gap-2">
                 {nav.map((item) => (
                   <Link
                     key={item.href}
                     href={item.href}
                     onClick={() => setOpen(false)}
-                    className="text-base text-foreground"
+                    className="text-base text-foreground py-1"
                   >
                     {item.label}
                   </Link>
